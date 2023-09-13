@@ -10,22 +10,34 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Rinehart, Duane (2023) A brainstem circuit for the expression of defensive
-  facial reactions in rat (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000624/draft
+citation: Rinehart, Duane; Amalia Callado-Pérez (2023) A brainstem circuit for the
+  expression of defensive facial reactions in rat (Version draft) [Data set]. DANDI
+  archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: duane.rinehart@gmail.com
+  identifier: 0000-0001-9245-2124
   includeInCitation: true
   name: Rinehart, Duane
   roleName:
   - dcite:DataManager
   schemaKey: Person
+- affiliation: []
+  email: amalia.callado.perez@gmail.com
+  identifier: 0000-0002-2255-4640
+  includeInCitation: true
+  name: Amalia Callado-Pérez
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2023-09-01T00:18:09.594806+00:00'
+datePublished: '2023-09-13T00:57:02.403939+00:00'
 description: Chemoreceptors in the nasal epithelium can trigger an apneic reaction
   and a grimace in response to airborne irritants. Callado Perez et al. find that
   the underlying circuit does not involve olfaction. Rather, activation of neurons
   in the muralis subnucleus of the spinal trigeminal complex will inhibit the Pre-Bötzinger
   inhalation oscillator.
+doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000624/draft
 identifier: DANDI:000624
@@ -36,6 +48,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000624/versions/draft/assets/
 name: A brainstem circuit for the expression of defensive facial reactions in rat
 protocol: []
+publishedBy:
+  endDate: '2023-09-13T00:57:02.403939+00:00'
+  id: urn:uuid:6edfe3ea-6e2e-440a-b4b0-0475011f582e
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-09-13T00:57:02.403939+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:52e6a71f-cb05-4def-a2d2-12e633f02a49
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
