@@ -7,21 +7,34 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach: []
+  approach:
+  - name: behavioral approach
+    schemaKey: ApproachType
+  - name: electrophysiological approach
+    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
     schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 775808
-  numberOfFiles: 4
-  numberOfSubjects: 1
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 130570933952
+  numberOfFiles: 45
+  numberOfSubjects: 10
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10116
     name: Rattus norvegicus - Norway rat
     schemaKey: SpeciesType
-  variableMeasured: []
+  variableMeasured:
+  - ProcessingModule
+  - Units
+  - BehavioralEvents
 citation: Rinehart, Duane; Amalia Callado-Pérez; Kleinfeld, David; Fassihi, Arash;
   Dechênes, Martin; Moore, Jeffrey D.; Demers, Maxime (2023) A brainstem circuit for
   the expression of defensive facial reactions in rat (Version draft) [Data set].
@@ -124,7 +137,7 @@ contributor:
   roleName: []
   schemaKey: Organization
 dateCreated: '2023-09-01T00:18:09.594806+00:00'
-datePublished: '2023-10-13T19:35:51.643612+00:00'
+datePublished: '2023-10-13T20:49:55.743651+00:00'
 description: Chemoreceptors in the nasal epithelium can trigger an apneic reaction
   and a grimace in response to airborne irritants. Callado Perez et al. find that
   the underlying circuit does not involve olfaction. Rather, activation of neurons
@@ -142,13 +155,13 @@ manifestLocation:
 name: A brainstem circuit for the expression of defensive facial reactions in rat
 protocol: []
 publishedBy:
-  endDate: '2023-10-13T19:35:51.643612+00:00'
-  id: urn:uuid:93f0b1c7-5a2b-4803-ac18-f6b23178a2e3
+  endDate: '2023-10-13T20:49:55.743651+00:00'
+  id: urn:uuid:27be626c-0230-4aee-bc1a-84261f789249
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-10-13T19:35:51.643612+00:00'
+  startDate: '2023-10-13T20:49:55.743651+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:400a3c12-e55e-4eb5-aa9d-9e763d71d9f8
+  - id: urn:uuid:b8a27946-fd04-431b-9e9a-fe8f50fb4933
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
